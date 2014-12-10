@@ -2230,6 +2230,11 @@ body.grade-b, body.grade-c {
   padding-top: 1px;
   width: auto;
   height: auto; }
+  
+  .scroll-content#notic{
+	background-image: url('../../../senior.jpg');
+	background-repeat: no-repeat;
+  }
 
 .scroll-content-false, .menu .scroll-content.scroll-content-false {
   z-index: 11; }
@@ -7811,3 +7816,42 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 .platform-c:not(.enable-transitions) * {
   -webkit-transition: none !important;
   transition: none !important; }
+
+#mapa button#mapateste1{
+width:400px;
+height:800px;
+}
+
+#mapa button#subcampo{
+width:500px;
+height:800px;
+}
+
+#mapa #subcampo{
+position: fixed;
+    top: 89px;
+    left: 29px;
+}
+#mapa #campo_org{
+position: fixed;
+    top: 98px;
+    left: 207px;
+}
+
+#mapa #cam_eq_servico{
+position: fixed;
+    top: 98px;
+    left: 232px;
+}
+
+#mapa #restaurante_tropas{
+position: fixed;
+    top: 97px;
+    left: 422px;
+}
+
+#mapa #arena{
+position: fixed;
+    top: 188px;
+    left: 229px;
+}
